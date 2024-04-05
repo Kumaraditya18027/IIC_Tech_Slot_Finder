@@ -1,0 +1,144 @@
+/* App.css */
+
+/* body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .InputForm {
+    width: 400px;
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .InputForm h1 {
+    text-align: center;
+    font-size: 24px;
+    color:aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .InputForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .InputForm label {
+    margin-bottom: 10px;
+  }
+  
+  .InputForm input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .InputForm button {
+    padding: 8px 20px;
+    background-color: #ff0000;
+    color: #000;
+    border: solid;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+ */
+ 
+ 
+
+ .email {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40vh;
+  justify-content: center;
+  text-align: center;
+  /* margin-right: 20%; */
+  margin-bottom: 20px;
+}
+
+.email input[type="text"] {
+  width: 30%; 
+  padding: 10px;
+  border-radius: 30px;
+  background-color: black;
+  border-style: solid;
+  border-color: red;
+  color: aliceblue;
+  margin-bottom: 27px;
+}
+.email button{
+  width: 100px;
+  height: 37px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: red;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 1000;
+}
+ /* .email input {
+  display: inline-block;
+  width:37%;
+  height: 30px;
+  border-radius: 30px;
+  background-color: black;
+  border-style: solid;
+  border-color: red;
+  color: aliceblue;
+ } */
+ ::placeholder{
+  text-align: center;
+  text-decoration: solid;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 1000;
+  color: aliceblue;
+ }
+  
+  .card {
+    background-color:black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    width:30vw;
+    /* width: 30%; */
+    margin-left: 33%;
+    border-style: solid;
+    border-color: red;
+
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    color: aliceblue;
+  }
+  
+  .card p {
+    margin: 5px 0;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  @media screen and (max-width:600px) {
+    .email button{
+      width: 15%;
+    }
+    .card{
+      width:80vw;
+      margin: auto;
+    }
+    
+  }
+  
