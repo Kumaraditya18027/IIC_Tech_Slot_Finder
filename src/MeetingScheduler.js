@@ -32,7 +32,8 @@ function MeetingScheduler() {
       {/* <form onSubmit={(e) => { e.preventDefault(); searchMeetingTime(); }}> */}
           <input type="text" value={useremail} onChange={handleInputChange} placeholder='Enter Email' style={{marginLeft:"33%"}} />
         <button type="submit" onClick={(e) => { e.preventDefault(); searchMeetingTime(); }} style={{marginLeft:"45%",...(window.innerWidth <= 600 && {
-                            marginLeft:"41%"
+                            marginLeft:"41%",
+                            width:70,
                         })}}>Submit</button>
       {/* </form> */}
       </div>
